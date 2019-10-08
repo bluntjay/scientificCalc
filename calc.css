@@ -1,0 +1,101 @@
+a* {
+  padding: 0;
+  margin: 5px;
+  text-align: center;
+}
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: "Exo", sans-serif;
+  color: #fff;
+  background: linear-gradient(-45deg, #7120d4, #5920d4, #2320d4, #207dd4, #20d4ce);
+  background-size: 400% 400%;
+  animation: backGround 15s ease infinite;
+}
+
+#calchead{
+/*  text-align: center;*/
+  font-family: "Times New Roman", Times, serif, sans-serif;
+  text-decoration: underline;
+  text-shadow: 2px 2px #244f52;
+  font-size: 30px;
+  float: center;
+  margin-right: 60%;
+
+}
+
+@keyframes backGround {
+  0% {
+    background-position: 0% 25%;
+  }
+  25% {
+    background-position: 50% 25%;
+  }
+  50% {
+    background-position: 0% 50%;
+  }
+  75% {
+    background-position: 0% 75%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+#calcForm{
+  text-align: center;
+  margin-left: 30%; 
+  margin-top: 5%;
+}
+.calculator {
+  width: 350px;
+  height: 320px;
+  background: linear-gradient(to bottom, #b4c7ed 0%, #a386b3 100%);
+  box-shadow: 0px 0px 0px 10px #666;
+  border: 5px solid black;
+  border-radius: 10px;
+  float: center;
+}
+#display {
+  width: 320px;
+  height: 40px;
+  text-align: right;
+  background-color: black;
+  border: 3px solid white;
+  font-size: 18px;
+  left: 2px;
+  top: 2px;
+  color: #02f0ac;
+}
+.buttTop{
+  color: white;
+  background-color: #6f6f6f;
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+}
+.buttNum {
+  color: white;
+  background-color: black;
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+}
+.buttMath {
+  color: white;
+  background-color: #9455a1;
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+}
+.buttOpps {
+  color: white;
+  background-color: #e37412;
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+}
